@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS updates (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  count int(11) NOT NULL,
+  timestamp timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) CHARSET=utf8 ;
+
