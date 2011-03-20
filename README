@@ -1,4 +1,16 @@
-GeigerTracker is a project to create web-based graphs of radiation data collected from a geiger counter. This is the server, written in PHP with a MySQL database.
+GeigerTracker is a project to create web-based graphs of radiation data
+collected from a geiger counter. This is the server, written in PHP with a
+MySQL database.
+
+NOTE: This project isn't done yet.
+
+To install:
+- Download the source code, extract it into a folder on your webserver
+- Create a new MySQL database, username, and password
+- Copy config-sample.php into config.php
+- Edit config.php and add your MySQL info and a random secret (the same 
+  secret your client uses)
+- Go to your website for the first time to install the database
 
 You can find the server here:
 https://github.com/micahflee/geigertracker_server
