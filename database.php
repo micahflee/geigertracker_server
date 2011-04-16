@@ -15,7 +15,7 @@ class Database {
 		CREATE TABLE IF NOT EXISTS ".$c['mysql_prefix']."updates (
 			id int(11) NOT NULL AUTO_INCREMENT,
 			count int(11) NOT NULL,
-			timestamp timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			timestamp int(11) NOT NULL, 
 			PRIMARY KEY (`id`)
 		) CHARSET=utf8 ;";
 		$this->query($schema);
